@@ -22,10 +22,18 @@ else {
 
 // 0, null, undefined, '', NaN(Not a Number)  - false
 
-if (NaN) {
-    console.log('Значение true')
-}
+// if (NaN) {
+//     console.log('Значение true')
+// }
 
-else {
-    console.log('Значение false')
-}
+// else {
+//     console.log('Значение false')
+// }
+
+//4 ? console.log('Значение true') : console.log('Значение false')
+
+var personAge = 20
+
+var message = personAge < 18 ? 'Человек несовершеннолетний' : 'Человек совершеннолетний' // Тернарные операторы
+
+console.log(message)
