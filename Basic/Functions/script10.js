@@ -18,3 +18,15 @@ function checkLogAge(year) {
 
 checkLogAge(carYear)
 checkLogAge(personYear)
+
+// Способы создания функций
+
+sayHelloTo('Николай')
+
+// var sayHelloTo = function (name) {
+//     console.log('Привет, ' + name)
+// }
+
+ function sayHelloTo(name) {
+    console.log('Привет, ' + name)
+}
